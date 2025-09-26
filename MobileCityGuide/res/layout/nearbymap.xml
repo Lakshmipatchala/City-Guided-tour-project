@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+    
+    
+    
+<com.google.android.maps.MapView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mapview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:scaleType="centerInside"
+    android:apiKey="0O7iVftWosxOKKCbXBIhZQBlCTxSCmcLIWQsVBg"
+    
+/>
+
+<EditText
+    android:id="@+id/textDistance"
+    android:layout_width="127dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_toLeftOf="@+id/searchButtonMap"
+    android:hint="max distance of nearby POIs in meter"
+    android:inputType="number"
+    android:maxLength="5" >
+
+    <requestFocus />
+</EditText>
+
+<Button
+    android:id="@+id/searchButtonMap"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:text="search" />
+
+</RelativeLayout>

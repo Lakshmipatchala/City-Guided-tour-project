@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MobileCityGuideActivity!</string>
+    <string name="app_name">MobileCityGuide</string>
+    <string name="search_hint">search location to review</string>
+	<string name="server_url">http://hft.dyndns.biz:8080/MobileCityGuideServer/</string>
+	<string name="menu_follow_position">follow my position</string>
+	<string name="menu_dont_follow_position">don\'t follow my position</string>
+	<string name="menu_mylocation">my location</string>
+
+	<string name="WebServiceURL">http://10.0.2.2</string>
+
+	</resources>
